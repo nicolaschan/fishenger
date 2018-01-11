@@ -1,6 +1,6 @@
 {
   "name": "fishenger",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "🐟 A robot friend for your Minecraft server",
   "main": "index.js",
   "scripts": {
