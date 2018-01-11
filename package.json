@@ -1,0 +1,32 @@
+{
+  "name": "fishenger",
+  "version": "1.0.0",
+  "description": "🐟 A robot friend for your Minecraft server",
+  "main": "index.js",
+  "scripts": {
+    "stop": "forever stop fishenger",
+    "start": "forever --uid fishenger -a start server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaschan/fishenger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaschan/fishenger/issues"
+  },
+  "homepage": "https://github.com/nicolaschan/fishenger#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "forever": "^0.15.3",
+    "mathjs": "^3.19.0",
+    "mineflayer": "^2.6.1",
+    "mineflayer-navigate": "0.0.10",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "vec3": "^0.1.3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "login": {
+    "host": "localhost",
+    "port": 25565,
+    "username": "mojang username",
+    "password": "mojang email"
+  },
+  "market": {
+    "api": "https://diamond.nc99.co"
+  },
+  "prefix": "!"
+}
