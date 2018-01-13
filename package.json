@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "stop": "forever stop fishenger",
-    "start": "forever --uid fishenger -a start server.js",
+    "start": "forever --uid fishenger -a --min-uptime 0 --spinSleepTime 30000 start server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
